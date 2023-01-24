@@ -1,0 +1,27 @@
+{
+  "description": "Raku - Gnome GTK4 Language Binding",
+  "name": "Gnome::Gtk4",
+  "version": "0.0.1",
+  "auth": "github:MARTIMM",
+  "authors": [ "Marcel Timmerman"],
+  "tags": [ "gnome", "gtk4", "gdk4"],
+
+  "perl": "6",
+  "license": "Artistic-2.0",
+
+  "provides": {
+    "Gnome::Gtk4::Enums": "lib/Gnome/Gtk4/Enums.rakumod"
+    "Gnome::Gtk4::Widget": "lib/Gnome/Gtk4/Widget.rakumod"
+  },
+
+  "source-url": "git://github.com/MARTIMM/gnome-gtk4.git",
+
+  "depends": [
+    "Gnome::N", "Gnome::Glib", "Gnome::GObject", "Gnome::Gio", "Gnome::Gdk4",
+    "Gnome::Cairo"
+  ],
+
+  "test-depends": [ ],
+  "build-depends": [ ],
+  "resources": [ ]
+}
